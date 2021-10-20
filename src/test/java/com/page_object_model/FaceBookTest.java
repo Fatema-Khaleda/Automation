@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class FaceBookTest extends Common{
 	
-	/*@Test(priority = 1)
+	@Test(priority = 1)
 	public void facebooktest() throws InterruptedException {
 		Facebook facebook = new Facebook(driver);
 		Thread.sleep(2000);
@@ -27,10 +27,11 @@ public class FaceBookTest extends Common{
 		facebook.genderSecelect();
 		Thread.sleep(2000);
 		facebook.signUp();
-		Thread.sleep(2000);*/
+		Thread.sleep(2000);
+	}
 		
 	
-	@Test
+	@Test(priority = 2)
 	public void uhc() throws InterruptedException {
 		Uhc uhc = new Uhc(driver);
 		uhc.findADoctor();
