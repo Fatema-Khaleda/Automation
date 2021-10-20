@@ -12,7 +12,7 @@ public class AetnaOtc_Common {
 	    @BeforeTest
 	    public void setup() { 
 	    	
-	    	System.setProperty("webdriver.chrome.driver","/Users/fatemakhaleda/eclipse-workspace/SeleniumProject/Driver/chromedriver");
+	    	System.setProperty("webdriver.chrome.driver","/Users/fatemakhaleda/eclipse-workspace/Automation/Driver/chromedriver");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();  
 			driver.manage().window().fullscreen();  

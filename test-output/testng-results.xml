@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-16T13:59:23 EDT" name="Default suite" finished-at="2021-10-16T13:59:50 EDT" duration-ms="27490">
+  <suite started-at="2021-10-19T23:18:55 EDT" name="Default suite" finished-at="2021-10-19T23:19:29 EDT" duration-ms="33461">
     <groups>
     </groups>
-    <test started-at="2021-10-16T13:59:23 EDT" name="Default test" finished-at="2021-10-16T13:59:50 EDT" duration-ms="27490">
+    <test started-at="2021-10-19T23:18:55 EDT" name="Default test" finished-at="2021-10-19T23:19:29 EDT" duration-ms="33461">
       <class name="com.aetna.page.test.AetnaOtcTestClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.aetna.page.test.AetnaOtcTestClass@79da8dc5]" started-at="2021-10-16T13:59:23 EDT" name="setup" finished-at="2021-10-16T13:59:29 EDT" duration-ms="6183" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.aetna.page.test.AetnaOtcTestClass@79da8dc5]" started-at="2021-10-19T23:18:56 EDT" name="setup" finished-at="2021-10-19T23:19:06 EDT" duration-ms="10900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="aetnaotctestclass()[pri:0, instance:com.aetna.page.test.AetnaOtcTestClass@79da8dc5]" started-at="2021-10-16T13:59:29 EDT" name="aetnaotctestclass" finished-at="2021-10-16T13:59:50 EDT" duration-ms="21068" status="PASS">
+        <test-method signature="aetnaotctestclass()[pri:1, instance:com.aetna.page.test.AetnaOtcTestClass@79da8dc5]" started-at="2021-10-19T23:19:06 EDT" name="aetnaotctestclass" finished-at="2021-10-19T23:19:29 EDT" duration-ms="22280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aetnaotctestclass -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:com.aetna.page.test.AetnaOtcTestClass@79da8dc5]" started-at="2021-10-16T13:59:50 EDT" name="tearup" finished-at="2021-10-16T13:59:50 EDT" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:com.aetna.page.test.AetnaOtcTestClass@79da8dc5]" started-at="2021-10-19T23:19:29 EDT" name="tearup" finished-at="2021-10-19T23:19:29 EDT" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->

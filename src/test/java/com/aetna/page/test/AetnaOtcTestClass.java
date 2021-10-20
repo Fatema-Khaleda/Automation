@@ -26,10 +26,6 @@ public void aetnaotctestclass() throws InterruptedException {
 	Thread.sleep(2000);
 	aetnaotc.signUp();
 	Thread.sleep(2000);
-}
-
-
-
-
+	}
 
 }
