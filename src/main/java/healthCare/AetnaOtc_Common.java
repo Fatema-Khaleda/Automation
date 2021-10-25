@@ -1,16 +1,18 @@
-package com.aetna.page.test;
+package healthCare;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 public class AetnaOtc_Common {
-	WebDriver driver;
-	    @BeforeTest
-	    public void setup() { 
+	public static WebDriver driver;
+	@Parameters({"browser"})
+	    @BeforeMethod
+	    public void setup(String browser) { 
 	    	
 	    	System.setProperty("webdriver.chrome.driver","/Users/fatemakhaleda/eclipse-workspace/Automation/Driver/chromedriver");
 			driver = new ChromeDriver();
@@ -23,10 +25,9 @@ public class AetnaOtc_Common {
 	    }
 	    
 
-@AfterTest
+@AfterMethod
 public void tearup() {
 driver.close();
 }
 		
 	}
-//hijjj

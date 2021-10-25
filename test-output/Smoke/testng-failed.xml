@@ -9,6 +9,7 @@
         <methods>
           <include name="tearup"/>
           <include name="uhc"/>
+          <include name="facebooktest"/>
           <include name="browser"/>
         </methods>
       </class> <!-- com.page_object_model.FaceBookTest -->
